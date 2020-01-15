@@ -1,0 +1,19 @@
+import React from 'react';
+import MapView, { Marker } from 'react-native-maps';
+import { View } from 'react-native';
+
+export default function App() {
+  return (
+    <MapView 
+      style={{ flex: 1 }} 
+      initialRegion={{
+        latitude: -21.2544394,
+        longitude: -48.3090628,
+        latitudeDelta: 0.3,
+        longitudeDelta: 0.3,
+      }}
+    >
+      <Marker coordinate={{ latitude: -21.2544394, longitude: -48.3090628, }} />
+    </MapView>
+  )
+}
