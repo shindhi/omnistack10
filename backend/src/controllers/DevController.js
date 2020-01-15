@@ -42,4 +42,6 @@ module.exports = {
   
     return res.json(dev);
   }
+
+  //Finalizar os metodos (update, destroy)
 }
