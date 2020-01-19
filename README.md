@@ -1,12 +1,12 @@
 # Semana omnistack10 - DevRadar
 
-#:zap: Tecnologias
+:zap: #Tecnologias
 - Node.js
 - ReactJS
 - React Native
 - Expo
 
-#:notebook: Projeto
+:notebook: #Projeto
 O projeto desenvolvido serve para que devs consigam encontrar outros, de acordo com sua localidade e tecnologias que ele escolher.
 
 #Instalação
